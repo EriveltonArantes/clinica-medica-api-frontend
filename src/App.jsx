@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://clinica-medica-api.onrender.com";
+const apiBaseUrl = "https://clinica-medica-api-jtkj.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
